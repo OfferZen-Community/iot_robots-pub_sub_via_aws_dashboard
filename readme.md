@@ -22,7 +22,7 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 
 ### Step 1: Sign into AWS IoT cloud with your maker account.
 
-**Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console]  
+**Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console](https://offerzen-make.signin.aws.amazon.com/console)  
 **Credentials:** These have been mailed to you.
 
 
