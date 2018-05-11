@@ -44,7 +44,7 @@ board page.
 
 ### Step 5: Publish a message to the `makersPrep` topic.
 
-  **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice. This will publish a message to the `makersPrep` channel.
+  **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice. This will publish an MQTT message to the `makersPrep` topic.
 
   <img src="images/aws_iot_publish.png" alt="images/aws_iot_publish.png" width=650 />
 
@@ -52,7 +52,7 @@ board page.
 
 ### Step 6: Check Slack!
 
-If your message publishes sucessfuly with the required data, **Maker Bot** on Slack will post to your team channel! 🤖🌈 If you don't see anything in S
+If your message publishes sucessfully and contains the required data, **Maker Bot** on Slack will post to your team channel! 🤖🌈 If you don't see anything within a few minutes, try again or get in touch on Slack for help.
 
 
 ### Stuck?
