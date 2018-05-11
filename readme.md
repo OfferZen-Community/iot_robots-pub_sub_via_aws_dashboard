@@ -27,7 +27,7 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
   ![IoT Cloud dashboard landing](images/aws_iot_landing.png)
 
 3. In the sidebar menu, select **Test**.  
-  ![IoT Cloud sidebar](images/aws_iot_sidebar.png)
+  <img src="images/aws_iot_sidebar.png" width=100 />
 
 4. Subscribe to the `makersPrep` topic.  
   ![IoT Subscribe controls](images/aws_iot_subscribe.png)
