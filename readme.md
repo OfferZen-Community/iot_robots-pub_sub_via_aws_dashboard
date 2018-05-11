@@ -19,29 +19,39 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 
 ## Activity
 
-1. Sign into AWS IoT cloud with your maker account.  
-  **Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console]  
-  **Credentials:** These have been mailed to you.
+### Step 1: Sign into AWS IoT cloud with your maker account.
 
-2. Navigate to IoT Cloud dashboard.  
+**Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console]  
+**Credentials:** These have been mailed to you.
+
+
+### Step 2: Navigate to IoT Cloud dashboard.
 
   ![IoT Cloud dashboard landing](images/aws_iot_landing.png)
 
-3. In the sidebar menu, select **Test**.  
+
+### Step 3: In the sidebar menu, select **Test**.
+
   <img src="images/aws_iot_sidebar.png" width=200 />
 
-4. Subscribe to the `makersPrep` topic.  
+
+### Step 4: Subscribe to the `makersPrep` topic.  
 
   <img src="images/aws_iot_subscribe.png" width=650 />
 
-5. Publish a message to the `makersPrep` topic.  
+
+### Step 5: Publish a message to the `makersPrep` topic.
 
   <img src="images/aws_iot_publish.png" alt="images/aws_iot_publish.png" width=650 />
 
   **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice.
 
-6. If your message is successfully published, **Maker Bot** on Slack will post to your team channel! 🤖🌈
+### Step 6: Check Slack!
 
+If your message is successfully published, **Maker Bot** on Slack will post to your team channel! 🤖🌈
+
+
+### Stuck?
 
 _If you need help, contact [@Nicholas Erasmus](https://offerzen-make.slack.com/messages/DA5HF1659) or [@Dan](https://offerzen-make.slack.com/messages/D9M8BBRNW) on Slack for help._
 
