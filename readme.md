@@ -4,7 +4,7 @@
 
 ## Outcome
 
-In performing this activity, you'll __subscribe and publish to a topic__ on the AWS IoT Dashboard, with a __formatted JSON message__.
+In performing this activity, you'll __subscribe and publish to a topic__ on the AWS IoT Dashboard, with a __formatted JSON message__. This message will appear in your Slack team channel.
 
 ## Introduction
 
