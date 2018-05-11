@@ -15,7 +15,7 @@ Each message is **published** to a **topic**, and the message broker then delive
 
 ![PubSub flow](/images/pubsub-flow.gif)
 
-The messaging protocol we will be using is MQTT, specifically version 3.1.1. In more detailed activities, you will use websockets to send and receive MQTT messages, but for now you'll will use the AWS dashboard to communicate with the `makersPrep` topic we've set up.
+The messaging protocol we will be using is MQTT, specifically version 3.1.1. In more detailed activities, you will use websockets to send and receive MQTT messages, but for now you'll use the AWS dashboard to communicate with the `makersPrep` topic we've set up.
 
 
 ## Activity
