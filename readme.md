@@ -32,11 +32,11 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 
 4. Subscribe to the `makersPrep` topic.  
 
-  <img src="images/aws_iot_subscribe.png" width=400 />
+  <img src="images/aws_iot_subscribe.png" width=650 />
 
 5. Publish a message to the `makersPrep` topic.  
 
-  <img src="images/aws_iot_subscribe.png" alt="images/aws_iot_publish.png" width=400 />
+  <img src="images/aws_iot_subscribe.png" alt="images/aws_iot_publish.png" width=650 />
 
   **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice.
 
