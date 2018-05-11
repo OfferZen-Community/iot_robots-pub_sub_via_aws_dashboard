@@ -5,7 +5,7 @@
 
 ## Outcome
 
-In performing this activity, you'll __subscribe and publish to a topic__ on the AWS IoT Dashboard, with a __formatted JSON message__. This message will be delivered to a message queue, and then appear in your Slack team channel.
+In performing this activity, you'll __subscribe and publish to a topic__ on the AWS IoT Cloud dashboard, with a __formatted JSON message__. This message will be delivered to a message queue, and then appear in your Slack team channel.
 
 ## Introduction
 
@@ -15,18 +15,19 @@ Each message is **published** to a **topic**, and the message broker then delive
 
 ![PubSub flow](/images/pubsub-flow.gif)
 
-The messaging protocol we will be using is MQTT, specifically version 3.1.1. In more detailed activities, you will use websockets to send and receive MQTT messages, but for now you'll use the AWS dashboard to communicate with the `makersPrep` topic we've set up.
+The messaging protocol we will be using is MQTT, specifically version 3.1.1. In more detailed activities, you will use websockets to send and receive MQTT messages, but for now you'll use the AWS I to communicate with the `makersPrep` topic we've set up.
 
 
 ## Activity
 
-### Step 1: Sign into AWS IoT cloud with your maker account.
+### Step 1: Sign into AWS IoT Cloud with your maker account.
 
 **Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console](https://offerzen-make.signin.aws.amazon.com/console)  
 **Credentials:** These have been mailed to you.
 
 
-### Step 2: Navigate to IoT Cloud dashboard.
+### Step 2: Navigate to IoT Cloud's 
+board page.
 
   ![IoT Cloud dashboard landing](images/aws_iot_landing.png)
 
@@ -43,14 +44,15 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 
 ### Step 5: Publish a message to the `makersPrep` topic.
 
-  **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice.  
+  **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice. This will publish a message to the `makersPrep` channel.
 
   <img src="images/aws_iot_publish.png" alt="images/aws_iot_publish.png" width=650 />
 
 
+
 ### Step 6: Check Slack!
 
-If your message is successfully published and formatted correctly with the required data, **Maker Bot** on Slack will post to your team channel! 🤖🌈
+If your message publishes sucessfuly with the required data, **Maker Bot** on Slack will post to your team channel! 🤖🌈 If you don't see anything in S
 
 
 ### Stuck?
