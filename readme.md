@@ -49,7 +49,7 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 
 ### Step 6: Check Slack!
 
-If your message is successfully published, **Maker Bot** on Slack will post to your team channel! 🤖🌈
+If your message is successfully published and correctly formatted, **Maker Bot** on Slack will post to your team channel! 🤖🌈
 
 
 ### Stuck?
