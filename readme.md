@@ -24,16 +24,20 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
   **Credentials:** These have been mailed to you.
 
 2. Navigate to IoT Cloud dashboard.  
+
   ![IoT Cloud dashboard landing](images/aws_iot_landing.png)
 
 3. In the sidebar menu, select **Test**.  
-  <img src="images/aws_iot_sidebar.png" width=100 />
+  <img src="images/aws_iot_sidebar.png" width=200 />
 
 4. Subscribe to the `makersPrep` topic.  
-  ![IoT Subscribe controls](images/aws_iot_subscribe.png)
+
+  <img src="images/aws_iot_subscribe.png" width=400 />
 
 5. Publish a message to the `makersPrep` topic.  
-  ![IoT Publish controls](images/aws_iot_publish.png)  
+
+  <img src="images/aws_iot_subscribe.png" alt="images/aws_iot_publish.png" width=400 />
+
   **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice.
 
 6. If your message is successfully published, **Maker Bot** on Slack will post to your team channel! 🤖🌈
