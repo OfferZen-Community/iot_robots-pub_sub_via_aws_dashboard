@@ -55,7 +55,7 @@ If your message is successfully published and formatted correctly with the requi
 
 ### Stuck?
 
-_If you need help, contact [@Nicholas Erasmus](https://offerzen-make.slack.com/messages/DA5HF1659) or [@Dan](https://offerzen-make.slack.com/messages/D9M8BBRNW) on Slack for help._
+_If you need help, contact [@Nicholas Erasmus](https://offerzen-make.slack.com/messages/DA5HF1659) or [@Dan](https://offerzen-make.slack.com/messages/D9M8BBRNW) on Slack._
 
 
 
