@@ -11,7 +11,7 @@ In performing this activity, you'll __subscribe and publish to a topic__ on the 
 
 A **message broker** is a pub/sub service used to send and receive messages between devices and apps. 
 
-Each message is **published** to a **topic**, and the message broker then delivers those messages to all of the topic's **subscribers**. An useful analogy is a Slack channel: Each Slack channel is like a topic, and members can send (publish) messages to other members of the channel (subscribers).
+Each message is **published** to a **topic**, and the message broker then delivers those messages to all of the topic's **subscribers**. A useful analogy is a Slack channel: Each Slack channel is like a topic, and members can send (publish) messages to other members of the channel (subscribers).
 
 ![PubSub flow](/images/pubsub-flow.gif)
 
@@ -26,8 +26,7 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 **Credentials:** These have been mailed to you.
 
 
-### Step 2: Navigate to IoT Cloud's 
-board page.
+### Step 2: Navigate to IoT Cloud's dashboard page.
 
   ![IoT Cloud dashboard landing](images/aws_iot_landing.png)
 
