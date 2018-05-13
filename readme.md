@@ -25,6 +25,7 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 **Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console](https://offerzen-make.signin.aws.amazon.com/console)  
 **Credentials:** These have been mailed to you.
 
+After logging in, **ensure that you are in the Ohio region**. There's a region-select dropdown next to your name in the top right of the page.
 
 ### Step 2: Navigate to IoT Cloud's dashboard page.
 
