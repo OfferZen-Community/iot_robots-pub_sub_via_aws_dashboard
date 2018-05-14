@@ -46,6 +46,8 @@ After logging in, **ensure that you are in the Ohio region**. There's a region-s
 
   **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice. This will publish an MQTT message to the `makersPrep` topic.
 
+  If you're not sure why your message isn't working, test it with [JSON lint](https://jsonlint.com)
+
   <img src="images/aws_iot_publish.png" alt="images/aws_iot_publish.png" width=650 />
 
 
