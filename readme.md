@@ -9,7 +9,7 @@ In performing this activity, you'll __subscribe and publish to a topic__ on the 
 
 ## Introduction
 
-A **message broker** is a pub/sub service used to send and receive messages between devices and apps. 
+A **message broker** is a pub/sub service used to send and receive messages between devices and apps.
 
 Each message is **published** to a **topic**, and the message broker then delivers those messages to all of the topic's **subscribers**. A useful analogy is a Slack channel: Each Slack channel is like a topic, and members can send (publish) messages to other members of the channel (subscribers).
 
@@ -22,7 +22,7 @@ The messaging protocol we will be using is MQTT, specifically version 3.1.1. In 
 
 ### Step 1: Sign into AWS IoT Cloud with your maker account.
 
-**Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console](https://offerzen-make.signin.aws.amazon.com/console)  
+**Sign in page:** [https://offerzen-make.signin.aws.amazon.com/console](https://offerzen-make.signin.aws.amazon.com/console)
 **Credentials:** These have been mailed to you.
 
 After logging in, **ensure that you are in the Ohio region**. There's a region-select dropdown next to your name in the top right of the page.
@@ -37,7 +37,7 @@ After logging in, **ensure that you are in the Ohio region**. There's a region-s
   <img src="images/aws_iot_sidebar.png" width=200 />
 
 
-### Step 4: Subscribe to the `makersPrep` topic.  
+### Step 4: Subscribe to the `makersPrep` topic.
 
   <img src="images/aws_iot_subscribe.png" width=650 />
 
@@ -59,7 +59,7 @@ If your message publishes sucessfully and contains the required data, **Maker Bo
 
 ### Stuck?
 
-_If you need help, contact [@Nicholas Erasmus](https://offerzen-make.slack.com/messages/DA5HF1659) or [@Dan](https://offerzen-make.slack.com/messages/D9M8BBRNW) on Slack._
+_If you need help, contact [@nuclearnic](https://offerzen-make.slack.com/messages/DA5HF1659) or [@Dan](https://offerzen-make.slack.com/messages/D9M8BBRNW) on Slack._
 
 
 
