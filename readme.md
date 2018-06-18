@@ -44,7 +44,12 @@ After logging in, **ensure that you are in the Ohio region**. There's a region-s
 
 ### Step 5: Publish a message to the `makersPrep` topic.
 
-  **Message format:** a JSON object with attributes `"name"` as your full name, `"completed_prep"` as `true`, and an optional `"message"` string containing text of your choice. This will publish an MQTT message to the `makersPrep` topic.
+  **Message format:** a JSON object with attributes:
+  * `"maker"` as your Make username (this was sent to you in the prep email - it's the same as your AWS username)
+  * `"completed_prep"` as `true`
+  * An optional `"message"` string containing text of your choice
+
+  This will publish an MQTT message to the `makersPrep` topic.
 
   If you're not sure why your message isn't working, test it with [JSON lint](https://jsonlint.com)
 
