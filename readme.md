@@ -59,7 +59,7 @@ If your message publishes sucessfully and contains the required data, **Maker Bo
 
 ### Stuck?
 
-_If you need help, contact [@nuclearnic](https://offerzen-make.slack.com/messages/DA5HF1659) or [@Dan](https://offerzen-make.slack.com/messages/D9M8BBRNW) on Slack._
+_If you need help, contact [@Dan](https://offerzen-make.slack.com/messages/D9M8BBRNW) on Make Slack._
 
 
 
